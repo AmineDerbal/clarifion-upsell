@@ -12,12 +12,12 @@ const ProductAction = () => (
     </button>
     <div className="w-full border-lightGray text-[12px] border-2 rounded-[4px] p-2 flex justify-between items-center">
       <p>Free shipping</p>
-      <p className="text-lightGray text-[16px]"> |</p>
+      <p className="text-lightGray text-[24px]"> |</p>
       <div className="flex items-center gap-1">
-        <img src={lock} alt="lock" className="w-5 h-5 object-contain" />
+        <img src={lock} alt="lock" className="w-3 h-3 object-fill" />
         <p>Secure 256-bit SSL encryption.</p>
       </div>
-      <p className="text-lightGray text-[16px]"> |</p>
+      <p className="text-lightGray text-[24px]"> |</p>
       <div>
         <img src={creditCards} alt="credit cards" className="w-full h-full object-contain" />
       </div>

@@ -5,7 +5,7 @@ import ProductAction from './ProductAction';
 import { percentVector, guarantee } from '../../assets';
 
 const ProductData = () => (
-  <div className="w-1/2 flex flex-1 flex-col justify-between gap-2 text-lead">
+  <div className="w-1/2 flex flex-1 flex-col justify-between gap-5 text-lead">
     <ProductSpecial />
     <ProductDescription />
     <ProductSpec />
