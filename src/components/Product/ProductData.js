@@ -10,7 +10,11 @@ const ProductData = () => (
     <ProductDescription />
     <ProductSpec />
     <div className="flex gap-5 items-center bg-grayBackground w-full p-3">
-      <img src={percentVector} alt="percent vector" className="object-contain" />
+      <img
+        src={percentVector}
+        alt="percent vector"
+        className="object-contain"
+      />
       <p>
         Save
         {' '}
@@ -27,7 +31,11 @@ const ProductData = () => (
     </div>
     <ProductAction />
     <div className="flex items-center gap-1">
-      <img src={guarantee} alt="guarantee" className="w-4/5 h-4/5 object-contain" />
+      <img
+        src={guarantee}
+        alt="guarantee"
+        className="w-4/5 h-4/5 object-contain"
+      />
       <p className="text-[16px]">
         If you are not completely thrilled with your Clarifion - We have a
         {' '}

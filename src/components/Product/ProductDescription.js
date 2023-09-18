@@ -10,7 +10,11 @@ const ProductDescription = () => {
 
   return (
     <div className="flex gap-5 w-full">
-      <img src={productSmallImage} alt="clarifion product" className="h-full w-1/3 object-fill" />
+      <img
+        src={productSmallImage}
+        alt="clarifion product"
+        className="h-full w-1/3 object-fill"
+      />
       <div className="flex flex-col justify-between gap-2 w-full">
         <div className="flex justify-between w-full">
           <p className="font-semibold text-[20px]">Clarifion Air Ionizer</p>
@@ -19,9 +23,16 @@ const ProductDescription = () => {
             <p className="text-blue"> $84</p>
           </div>
         </div>
-        <img src={stars} alt="number of stars" className="w-1/3 object-fill" />
+        <img
+          src={stars}
+          alt="number of stars"
+          className="w-1/3 object-fill"
+        />
         <div className="flex gap-5 items-center">
-          <label htmlFor="myCheckbox" className="flex items-center">
+          <label
+            htmlFor="myCheckbox"
+            className="flex items-center"
+          >
             <input
               type="checkbox"
               id="myCheckbox"
@@ -39,8 +50,8 @@ const ProductDescription = () => {
           <p className="text-small">12 left in Stock</p>
         </div>
         <p>
-          Simply plug a Clarifion into any standard outlet and replace bulky, expensive air
-          purifiers with a simple.
+          Simply plug a Clarifion into any standard outlet and replace bulky,
+          expensive air purifiers with a simple.
         </p>
       </div>
     </div>
