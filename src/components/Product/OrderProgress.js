@@ -6,7 +6,7 @@ const OrderProgress = () => {
   const { screenWidth } = useSelector((state) => state.screen);
 
   return (
-    <div className="mt-10">
+    <div className="mt-12">
       <div className="flex justify-between">
         {orderProgress.map((order) => (
           <div
@@ -14,13 +14,13 @@ const OrderProgress = () => {
             className="flex items-center gap-2"
           >
             {screenWidth === 'sm' || screenWidth === 'md' ? (
-              <div className="flex flex-col items-center justify-center gap-2 text-center">
+              <div className="flex flex-col gap-2 items-center justify-center">
                 <img
-                  className="w-8 h-8 object-contain"
+                  className="w-6 h-6 object-contain"
                   src={order.image}
                   alt={order.name}
                 />
-                <p>
+                <p className="text-center text-sm">
                   step
                   {' '}
                   {order.id}
