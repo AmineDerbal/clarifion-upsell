@@ -13,41 +13,38 @@ const OrderProgress = () => {
             key={order.id}
             className="flex items-center gap-2"
           >
-            {screenWidth === 'sm' || screenWidth === 'md' ? (
-              <div className="flex flex-col gap-2 items-center justify-center">
-                <img
-                  className="w-6 h-6 object-contain"
-                  src={order.image}
-                  alt={order.name}
-                />
-                <p className="text-center text-sm">
-                  step
-                  {' '}
-                  {order.id}
-                  {' '}
-                  :
-                  {' '}
-                  {order.name}
-                </p>
-              </div>
-            ) : (
-              <div className="flex items-center gap-2">
-                <img
-                  className="w-8 h-8 object-contain"
-                  src={order.image}
-                  alt={order.name}
-                />
-                <p>
-                  step
-                  {' '}
-                  {order.id}
-                  {' '}
-                  :
-                  {' '}
-                  {order.name}
-                </p>
-              </div>
-            )}
+            <div
+              className={
+                screenWidth === 'sm' || screenWidth === 'md'
+                  ? 'flex flex-col gap-2 items-center justify-center'
+                  : 'flex items-center gap-2'
+              }
+            >
+              <img
+                className={
+                  screenWidth === 'sm' || screenWidth === 'md'
+                    ? 'w-6 h-6 object-contain'
+                    : 'w-8 h-8 object-contain'
+                }
+                src={order.image}
+                alt={order.name}
+              />
+              <p
+                className={
+                  screenWidth === 'sm' || screenWidth === 'md'
+                    ? 'text-center text-sm'
+                    : null
+                }
+              >
+                step
+                {' '}
+                {order.id}
+                {' '}
+                :
+                {' '}
+                {order.name}
+              </p>
+            </div>
           </div>
         ))}
       </div>
