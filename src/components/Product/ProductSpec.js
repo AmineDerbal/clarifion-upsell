@@ -4,7 +4,11 @@ import { tickCircle } from '../../assets';
 const ProductSpec = () => (
   <div>
     <div className="flex gap-3">
-      <img src={tickCircle} alt="Check Circle" className="w-8 h-8 object-contain" />
+      <img
+        src={tickCircle}
+        alt="Check Circle"
+        className="w-8 h-8 object-contain"
+      />
       <p>
         Negative Ion Technology may
         {' '}
@@ -13,7 +17,11 @@ const ProductSpec = () => (
       </p>
     </div>
     <div className="flex gap-3">
-      <img src={tickCircle} alt="Check Circle" className="w-8 h-8 object-contain" />
+      <img
+        src={tickCircle}
+        alt="Check Circle"
+        className="w-8 h-8 object-contain"
+      />
       <p>
         Designed for
         {' '}
@@ -21,11 +29,16 @@ const ProductSpec = () => (
       </p>
     </div>
     <div className="flex gap-3">
-      <img src={tickCircle} alt="Check Circle" className="w-8 h-8 object-contain" />
+      <img
+        src={tickCircle}
+        alt="Check Circle"
+        className="w-8 h-8 object-contain"
+      />
       <p>
         <span className="font-bold">Perfect for every room</span>
         {' '}
-        in all types of places.
+        in all types
+        of places.
       </p>
     </div>
   </div>
