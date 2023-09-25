@@ -67,4 +67,9 @@ const customerData = {
   stars,
 };
 
-export { claims, orderProgress, customerData };
+const productDescription = `Simply plug a Clarifion into any standard outlet and replace bulky,
+expensive air purifiers with a simple.`;
+
+export {
+  claims, orderProgress, customerData, productDescription,
+};
