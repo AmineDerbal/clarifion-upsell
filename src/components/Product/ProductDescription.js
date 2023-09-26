@@ -70,7 +70,7 @@ const ProductDescription = () => {
         </div>
       </div>
       {screenWidth === 'sm' || screenWidth === 'md' ? (
-        <p className="-mt-6">{productDescription}</p>
+        <p className="-mt-6 text-sm">{productDescription}</p>
       ) : null}
     </>
   );
