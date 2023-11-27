@@ -36,7 +36,7 @@ You can check the figma design
 ## 🛠 Built With <a name="built-with"></a>
 
 - React & redux
-- TypeScript
+- Vite
 - TailwindCSS
 
 ### Tech Stack <a name="tech-stack"></a>
